@@ -1,0 +1,50 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    text-align: center;
+    margin: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    padding: 3rem;
+    
+
+}
+.container {
+    background-color: hsl(0, 0%, 12%);
+    padding: 2.5rem;
+    border-radius: 0.6rem;
+
+    width: 90%; 
+    max-width: 25rem; 
+    min-width: 20rem;
+}
+
+.links {
+    background-color:hsl(0, 0%, 20%);
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    margin: 1rem;
+    
+}
+#adress {
+    color: hsl(75, 94%, 57%);
+    font-weight: bold;
+}
+img {
+    border-radius: 50%;
+    width: 6.25rem;
+}
+
+.sem-ponto {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.links:hover{background-color: green; transition: 0.5s}
+
